@@ -1,7 +1,6 @@
 import React from 'react';
 
-function Buttons() {
-
+export default function Buttons() {
     const style = {
         textAlign: 'center',
         margin: '10px'
@@ -14,11 +13,9 @@ function Buttons() {
     return (
         <div style={style}>
         <button style={margins} type="button" class="btn btn-success">All</button>
-        <button style={margins} type="button" class="btn btn-success">Marketting</button>
         <button style={margins} type="button" class="btn btn-success">Engineering</button>
-        <button style={margins} type="button" class="btn btn-success">Management</button>
+        <button style={margins} type="button" class="btn btn-success">Marketting</button>
+        <button style={margins} type="button" class="btn btn-success">Years of Service</button>
         </div>
-    );
-};
-
-export default Buttons;
+    )
+}
